@@ -265,6 +265,7 @@ nav ul li a:active {
   border-radius: 5px;
   padding: 5px;
   margin-right: 7px;
+  width: 20%;
 }
 
 
@@ -632,6 +633,13 @@ li a {
 main ul li {
   display: block;
   text-align: center;
+}
+.logo {
+  float: left;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 7px;
+  width: 20%;
 }
 .bikes {
   width: 80%;
