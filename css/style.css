@@ -340,22 +340,7 @@ a.booking {
   border: 5px solid #1B1464;
   border-radius: 6px;
   float: right;
-}
-input[type="booking"] {
-  width: 140px;
-  text-align: center;
-  font-size: 20px;
-  color: #1B1464;
-  cursor: pointer;
-  padding: 10px;
-  font-weight: bold;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  margin-left: 60px;
-  border-style: outset;
-  border: 5px solid #1B1464;
-  border-radius: 6px;
-  float: right;
+  text-decoration: none;
 }
 
 
@@ -531,7 +516,7 @@ input[type="submit"] {
   border: 5px solid #1B1464;
   border-radius: 6px;
 }
-input[type="booking"] {
+a.booking {
   width: 140px;
   text-align: center;
   font-size: 20px;
@@ -604,7 +589,7 @@ footer p a {
 
 /*desktop styles*/
 @media only screeen and (max-width:1024px) {
-  body {
+body {
     background-color: #055E49;
 }
 h1 {
@@ -655,6 +640,23 @@ main ul li {
 }
 .textWrap img {
   float: left;
+}
+a.booking {
+  width: 140px;
+  text-align: center;
+  font-size: 20px;
+  color: #1B1464;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  border-style: outset;
+  border: 5px solid #1B1464;
+  border-radius: 6px;
+  float: right;
+  text-decoration: none;
 }
 footer  {
   background: #1F4A4F;
