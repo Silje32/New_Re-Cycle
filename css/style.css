@@ -318,6 +318,17 @@ input[type="submit"]:active {
   color: purple;
   border: 5px solid #1B1464;
 }
+form div {
+  margin: 10px 10px;
+  width: 350px;
+  padding-bottom: 20px;
+  font-size: bold;
+}
+textarea {
+  width: 420px;
+  height: 180px;
+  border: 2px solid #D99A9A;
+}
 .message {
   margin-top: 50px;
   width: 100%;
