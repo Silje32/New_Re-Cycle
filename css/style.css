@@ -42,7 +42,7 @@ h1 {
   display: inline;
 }
 .contact, .tours, .name {
-  color: #1F4A4F;
+  color: #93D0D9;
 }
 .contact {
   margin-left: 150px;
@@ -71,12 +71,12 @@ p {
 .main-heading {
   font-size: 45px;
   margin-left: 20px;
-  color: #93D0D9;
+  color: #1F4A4F;
 }
 .line {
   font-size: 60px;
   display: inline;
-  color: #93D0D9;
+  color: #1F4A4F;
 }
 #page {
   max-width: 1280;
@@ -144,17 +144,8 @@ blockquote {
   margin-top: 60px;
 }
 .col-1 {
-  float: left;
-  width: 45%;
-  padding: 5px;
-  margin-top: 30px;
-  margin-left: 6px;
 }
 .col-2 {
-  float: left;
-  width: 45%;
-  padding: 4%;
-  margin-top: 20px;
 }
 .search {
   margin-top: 80px;
@@ -265,8 +256,7 @@ nav ul li a:active {
   margin-bottom: 30px;
 }
 .bike {
-  width: 90%;
-  margin-top: 90px;
+  width: 80%;
 }
 .logo {
   float: left;
@@ -296,7 +286,7 @@ fieldset {
   margin-top: 40px;
 }
 legend {
-  background-color: #1B1464;
+  background-color: #D99A9A;
   color: #FFFFFF;
   border: 1px solid #000000;
   border-radius: 10px;
