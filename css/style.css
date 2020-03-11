@@ -41,6 +41,9 @@ h1 {
   margin-bottom: 80px;
   display: inline;
 }
+.contact, .tours, .name {
+  color: #1F4A4F;
+}
 .contact {
   margin-left: 150px;
   margin-bottom: 50px;
@@ -163,7 +166,7 @@ blockquote {
   border-radius: 6px;
 }
 main ul li {
-  color: white;
+  color: black;
   font-size: 30px;
   padding: 20px;
 }
