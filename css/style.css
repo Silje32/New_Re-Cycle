@@ -20,7 +20,7 @@
 }
 html, body {
   max-width: 1024px;
-  background: #055E49;
+  background: #93D0D9;
   font-family: 'Rockwell', 'Times Roman', serif;
   font-weight: italic;
   font-size: 16px;
@@ -63,12 +63,17 @@ h2, h3 {
   left: 30px;
 }
 p {
-  color: white;
+  color: black;
+}
+.main-heading {
+  font-size: 45px;
+  margin-left: 20px;
+  color: #93D0D9;
 }
 .line {
   font-size: 60px;
   display: inline;
-  color: #1B1464;
+  color: #93D0D9;
 }
 #page {
   max-width: 1280;
@@ -76,7 +81,7 @@ p {
   margin: 2px auto;
   padding: 20px;
   border: 4px double #000;
-  background-color:  #93D0D9;
+  background-color:  white;
 }
 li a {
   margin-right: 150px;
