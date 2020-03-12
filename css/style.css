@@ -1,5 +1,5 @@
 /*Color Palette
-01. #1B1464 - purple
+01. #D99A9A  - pink
 02. white
 03. #055E49 - green
 04. #1F4A4F - dark green
@@ -42,17 +42,27 @@ h1 {
   display: inline;
 }
 .contact, .tours, .name {
-  color: #93D0D9;
+  text-shadow: 1px 1px 4px black;
 }
 .contact {
   margin-left: 150px;
   margin-bottom: 50px;
+  color: white;
+  font-size: 30px;
 }
 .tours {
   margin-left: 280px;
+  color: #93D0D9;
+  font-size: 40px;
+}
+.our_destination {
+  text-shadow: 1px 1px 4px black;
+  font-size: 30px;
 }
 .name {
   margin-left: 245px;
+  font-size: 30px;
+  color: #93D0D9;
 }
 h2, h3 {
   font-weight: bold;
@@ -669,6 +679,29 @@ main ul li {
   margin-top: 40px;
   color: #1F4A4F;
   text-shadow: 1px 1px 4px #93D0D9;
+}
+.contact, .tours, .name {
+  text-shadow: 1px 1px 4px black;
+}
+.name {
+  margin-left: 245px;
+  color: #93D0D9;
+  font-size: 40px;
+}
+.tours {
+  margin-left: 280px;
+  color: #93D0D9;
+  font-size: 40px;
+}
+.our_destination {
+  text-shadow: 1px 1px 4px black;
+  font-size: 30px;
+}
+.contact {
+  margin-left: 150px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 30px;
 }
 .bikes {
   width: 80%;
