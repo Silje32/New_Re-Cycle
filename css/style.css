@@ -68,15 +68,23 @@ h2, h3 {
 p {
   color: black;
 }
-.main-heading {
+.main-heading_1 {
   font-size: 45px;
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-top: 40px;
   color: #1F4A4F;
+  text-shadow: 1px 1px 4px #93D0D9;
 }
 .line {
   font-size: 60px;
   display: inline;
   color: #1F4A4F;
+}
+.main-heading_2 {
+  font-size: 45px;
+  margin-top: 40px;
+  color: #1F4A4F;
+  text-shadow: 1px 1px 4px #93D0D9;
 }
 #page {
   max-width: 1280;
@@ -258,7 +266,7 @@ nav ul li a:active {
   border-radius: 5px;
   padding: 5px;
   margin-right: 7px;
-  width: 15%;
+  width: 10%;
 }
 
 
@@ -642,7 +650,7 @@ main ul li {
   border-radius: 5px;
   padding: 5px;
   margin-right: 7px;
-  width: 15%;
+  width: 10%;
 }
 .bikes {
   width: 80%;
