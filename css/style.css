@@ -179,7 +179,7 @@ header  {
   max-width: 1260px;
   z-index: 1;
   border-radius: 6px;
-  margin-top: 80px;
+  margin-top: 30px;
   margin-bottom: 100px;
   margin-left: 2px;
   margin-right: 80px;
@@ -625,7 +625,7 @@ header  {
   max-width: 1260px;
   z-index: 1;
   border-radius: 6px;
-  margin-top: 80px;
+  margin-top: 30px;
   margin-bottom: 50px;
   margin-left: 2px;
   margin-right: 80px;
@@ -651,6 +651,24 @@ main ul li {
   padding: 5px;
   margin-right: 7px;
   width: 10%;
+}
+.main-heading_1 {
+  font-size: 45px;
+  margin-left: 30px;
+  margin-top: 40px;
+  color: #1F4A4F;
+  text-shadow: 1px 1px 4px #93D0D9;
+}
+.line {
+  font-size: 60px;
+  display: inline;
+  color: #1F4A4F;
+}
+.main-heading_2 {
+  font-size: 45px;
+  margin-top: 40px;
+  color: #1F4A4F;
+  text-shadow: 1px 1px 4px #93D0D9;
 }
 .bikes {
   width: 80%;
