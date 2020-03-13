@@ -45,7 +45,7 @@ h1 {
   text-shadow: 1px 1px 4px black;
 }
 .contact {
-  margin-left: 150px;
+  margin-left: 140px;
   margin-bottom: 50px;
   color: white;
   font-size: 30px;
@@ -63,6 +63,9 @@ h1 {
   margin-left: 245px;
   font-size: 30px;
   color: #93D0D9;
+}
+.form {
+  background: light blue;
 }
 h2, h3 {
   font-weight: bold;
@@ -271,6 +274,7 @@ nav ul li a:active {
 }
 .bike {
   width: 80%;
+  margin-left: 85px;
 }
 .logo {
   border-radius: 5px;
@@ -311,27 +315,28 @@ input[type="submit"] {
   width: 130px;
   text-align: center;
   font-size: 20px;
-  color: #1B1464;
+  color: white;
+  background-color: #D99A9A;
   cursor: pointer;
   padding: 10px;
   font-weight: bold;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 5px;
-  margin-left: 80px;
+  margin-left: 400px;
   border-style: outset;
-  border: 5px solid #1B1464;
+  border: 2px solid #93D0D9;
   border-radius: 6px;
 }
 input[type="submit"]:hover {
-  color: purple;
+  color: black;
 }
 input[type="submit"]:active {
-  color: purple;
-  border: 5px solid #1B1464;
+  color: white;
+  border: 5px solid #055E49;
 }
 form div {
   margin: 10px 10px;
-  width: 350px;
+  width: 450px;
   padding-bottom: 20px;
   font-size: bold;
 }
@@ -536,7 +541,7 @@ input[type="submit"] {
   margin-bottom: 40px;
   margin-left: 45px;
   border-style: outset;
-  border: 5px solid #1B1464;
+  border: 5px solid #93D0D9;
   border-radius: 6px;
 }
 a.booking {
@@ -708,6 +713,10 @@ main ul li {
   margin: 2px auto;
   float: left;
 }
+.bike {
+  width: 80%;
+  margin-left: 85px;
+}
 .textWrap img {
   float: left;
 }
@@ -727,6 +736,12 @@ a.booking {
   border-radius: 6px;
   float: right;
   text-decoration: none;
+}
+form div {
+  margin: 10px 10px;
+  width: 450px;
+  padding-bottom: 20px;
+  font-size: bold;
 }
 footer  {
   background: #1F4A4F;
