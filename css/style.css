@@ -267,6 +267,10 @@ nav ul li a:active {
   margin: 0px 35px 35px 5px;
   width: 50%;
 }
+.picture img {
+  float: right;
+  margin: 0px 35px 35px 0px;
+}
 .bike {
   width: 80%;
   margin-left: 85px;
@@ -716,6 +720,10 @@ h2.our_destinations {
   float: right;
   margin: 0px 35px 35px 5px;
   width: 50%;
+}
+.picture img {
+  float: right;
+  margin: 0px 35px 35px 0px;
 }
 a.booking {
   width: 140px;
