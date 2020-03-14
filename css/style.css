@@ -43,26 +43,24 @@ h1 {
 }
 .contact, .tours, .name {
   text-shadow: 1px 1px 4px black;
+  color: white;
 }
 .contact {
   margin-left: 140px;
   margin-bottom: 50px;
-  color: white;
   font-size: 30px;
 }
 .tours {
   margin-left: 280px;
-  color: #93D0D9;
   font-size: 40px;
 }
 .our_destination {
   text-shadow: 1px 1px 4px black;
-  font-size: 30px;
+  font-size: 20px;
 }
 .name {
   margin-left: 245px;
   font-size: 30px;
-  color: #93D0D9;
 }
 h2, h3 {
   font-weight: bold;
