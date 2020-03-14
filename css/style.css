@@ -127,18 +127,10 @@ main ul li {
   text-align: center;
 }
 .textWrap {
-  margin-top: 50px;
-}
-.textWrap img {
-  float: left;
-  margin: 0 35px 35px 0px;
+  margin-top: 30px;
 }
 .clearfix {
   margin-top: 50px;
-}
-.picture img {
-  float: left;
-  margin: 0 35px 35px 0px;
 }
 .clearfix::after {
   content: "";
@@ -263,16 +255,17 @@ nav ul li a:active {
   width: 100%;
   margin-bottom: 50px;
 }
-.bikes {
-  width: 50%;
-  margin-top: 50px;
-}
 .people {
   width: 40%;
   float: left;
   margin-top: 40px;
   margin-left: 250px;
   margin-bottom: 30px;
+}
+.textWrap img {
+  float: right;
+  margin: 0px 35px 35px 5px;
+  width: 50%;
 }
 .bike {
   width: 80%;
@@ -488,10 +481,6 @@ li {
 .banner {
   width: 100%;
   margin-bottom: 40px;
-}
-.bikes {
-  width: 100%;
-  clear: both;
 }
 .textWrap img {
   float: left;
@@ -719,17 +708,14 @@ h2.our_destinations {
   color: white;
   font-size: 30px;
 }
-.bikes {
-  width: 80%;
-  margin: 3px auto;
-  float: right;
-}
 .bike {
   width: 80%;
   margin-left: 85px;
 }
 .textWrap img {
-  float: left;
+  float: right;
+  margin: 0px 35px 35px 5px;
+  width: 50%;
 }
 a.booking {
   width: 140px;
