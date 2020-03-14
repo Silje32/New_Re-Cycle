@@ -54,9 +54,11 @@ h1 {
   margin-left: 280px;
   font-size: 40px;
 }
-.our_destination {
+h2.our_destinations {
   text-shadow: 1px 1px 4px black;
   font-size: 20px;
+  margin-top: 50px;
+  margin-left: 100px;
 }
 .name {
   margin-left: 245px;
@@ -414,7 +416,7 @@ h2, h3 {
   left: 30px;
   margin-top: 40px;
 }
-.our-destinations {
+h2.our-destinations {
   padding: 20px;
   font-size: 30px;
   font-family: 'NexaRustSlab','Verdana', 'sans serif';
@@ -699,9 +701,11 @@ main ul li {
   color: #93D0D9;
   font-size: 40px;
 }
-.our_destination {
+h2.our_destinations {
   text-shadow: 1px 1px 4px black;
-  font-size: 30px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 100px;
 }
 .contact {
   margin-left: 150px;
