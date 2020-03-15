@@ -143,13 +143,15 @@ main ul li {
   margin-top: 50px;
 }
 blockquote {
-  color: #1B1464;
-  box-shadow: 5px 5px 5px 5px #1B1464;
-  float: left;
+  color: black;
+  box-shadow: 5px 5px 5px 5px #D99A9A;
   text-align: center;
   padding: 30px;
-  margin-left: 135px;
+  margin-left: 80px;
   margin-top: 30px;
+  font-size: 30px;
+  font-family: 'Rockwell', 'Times Roman', serif;
+  font-weight: oblique;
 }
 .clear {
   clear: both;
@@ -748,6 +750,17 @@ form div {
   width: 450px;
   padding-bottom: 20px;
   font-size: bold;
+}
+blockquote {
+  color: black;
+  box-shadow: 5px 5px 5px 5px #D99A9A;
+  text-align: center;
+  padding: 30px;
+  margin-left: 80px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: 'Rockwell', 'Times Roman', serif;
+  font-weight: oblique;
 }
 footer  {
   background: #1F4A4F;
