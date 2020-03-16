@@ -613,14 +613,14 @@ footer p a {
 }
 
 /*tablet styles*/
-@media only screeen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   body {
     background-color: #055E49;
 }
 }
 
 /*desktop styles*/
-@media only screeen and (max-width:1024px) {
+@media only screen and (max-width:1024px) {
 body {
     background-color: #055E49;
 }
