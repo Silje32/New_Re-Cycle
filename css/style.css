@@ -211,7 +211,7 @@ footer p a {
     font-style: italic;
     font-weight: bold;
     text-align: center;
-    margin: 350px;
+    width: 20%;
 }
 footer p a:visited {
   color: #93D0D9;
@@ -230,6 +230,7 @@ li a {
   font-size: 1,5em;
   font-weight: bold;
   display: inline;
+  width: 20%;
 }
 li {
   display: inline;
@@ -332,6 +333,9 @@ input[type="submit"]:active {
   color: white;
   border: 5px solid #055E49;
 }
+#contact {
+  width: 60%;
+}
 form div {
   margin: 10px 10px;
   width: 500px;
@@ -375,7 +379,6 @@ a.booking {
   float: right;
   text-decoration: none;
 }
-
 
 /* Media Queries
 -------------------*/
@@ -653,6 +656,7 @@ li a {
   font-family: 'Rockwell', 'Times Roman', serif;
   font-size: 1,5em;
   font-weight: bold;
+  width: 20%;
 }
 main ul li {
   display: block;
@@ -739,6 +743,9 @@ a.booking {
   float: right;
   text-decoration: none;
 }
+#contact {
+  width: 60%;
+}
 form div {
   margin: 10px 10px;
   width: 450px;
@@ -764,5 +771,20 @@ footer  {
   border-radius: 6px;
   margin-top: 20px;
   clear: both;
+}
+footer p a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Rockwell', 'Times Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    width: 20%;
+}
+footer p a:visited {
+  color: #93D0D9;
+}
+footer p a:hover {
+  color: black;
 }
 }
