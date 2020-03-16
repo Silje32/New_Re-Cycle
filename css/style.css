@@ -12,11 +12,11 @@
 
 @font-face {
   font-family: 'NexaRustSlab';
-  src: url('../webfont/nexarustslab.eot');
-  src: url('../webfont/nexarustslab.eot?#iefix') format('embedded-opentype');
-  src: url('../NexaRustSlab-BlackShadow01-Free-webfont.woff') format('woff'),
-       url('../webfont/nexarustslab.ttf') format('truetype'),
-       url('../webfont/nexarustslab.svg') format('svg');
+  src: url('webfont/nexarustslab.eot');
+  src: url('webfont/nexarustslab.eot?#iefix') format('embedded-opentype');
+  src: url('NexaRustSlab-BlackShadow01-Free-webfont.woff') format('woff'),
+       url('webfont/nexarustslab.ttf') format('truetype'),
+       url('webfont/nexarustslab.svg') format('svg');
 }
 html, body {
   max-width: 1024px;
