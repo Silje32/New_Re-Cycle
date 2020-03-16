@@ -253,10 +253,6 @@ nav ul li a:active {
 
 /* Images
 -------------------*/
-.banner {
-  width: 100%;
-  margin-bottom: 50px;
-}
 .people {
   width: 40%;
   float: left;
@@ -271,6 +267,7 @@ nav ul li a:active {
 }
 .picture img {
   float: right;
+  width: 20%;
   margin: 0px 35px 35px 0px;
 }
 .bike {
@@ -483,10 +480,6 @@ li {
   color: #1B1464;
   padding: 5px;
   display: inline;
-}
-.banner {
-  width: 100%;
-  margin-bottom: 40px;
 }
 .textWrap img {
   float: left;
@@ -725,6 +718,7 @@ h2.our_destinations {
 }
 .picture img {
   float: right;
+  width: 20%;
   margin: 0px 35px 35px 0px;
 }
 a.booking {
