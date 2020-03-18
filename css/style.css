@@ -277,7 +277,6 @@ nav ul li a:active {
   margin-left: 85px;
 }
 .logo {
-  border-radius: 5px;
   padding: 5px;
   margin-right: 7px;
   width: 10%;
@@ -664,7 +663,6 @@ main ul li {
   text-align: center;
 }
 .logo {
-  border-radius: 5px;
   padding: 5px;
   margin-right: 7px;
   width: 10%;
