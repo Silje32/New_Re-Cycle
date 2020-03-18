@@ -212,7 +212,7 @@ footer p a {
     font-style: italic;
     font-weight: bold;
     text-align: center;
-    width: 20%;
+    margin-left: 350px;
 }
 footer p a:visited {
   color: #93D0D9;
@@ -781,7 +781,7 @@ footer p a {
     font-style: italic;
     font-weight: bold;
     text-align: center;
-    width: 20%;
+    margin-left: 350px;
 }
 footer p a:visited {
   color: #93D0D9;
