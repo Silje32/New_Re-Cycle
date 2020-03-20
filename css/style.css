@@ -346,8 +346,8 @@ input[type="text"] {
   width: 300px;
 }
 textarea {
-  width: 420px;
-  height: 180px;
+  width: 80%;
+  height: 200px;
   border: 2px solid #D99A9A;
 }
 .message {
@@ -750,6 +750,11 @@ form div {
   width: 450px;
   padding-bottom: 20px;
   font-size: bold;
+}
+textarea {
+  width: 80%;
+  height: 200px;
+  border: 2px solid #D99A9A;
 }
 blockquote {
   color: black;
