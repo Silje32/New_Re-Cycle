@@ -359,6 +359,10 @@ textarea {
 .contact label {
   width: 20%;
 }
+.form-error {
+    color: red;
+    display: none;
+}
 
 /* Action button on the index page */
 a.booking {
@@ -791,5 +795,9 @@ footer p a:visited {
 }
 footer p a:hover {
   color: black;
+}
+.form-error {
+    color: red;
+    display: none;
 }
 }
