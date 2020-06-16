@@ -84,36 +84,29 @@ h2, h3 {
 p {
   color: black;
 }
+.main-heading {
+  position: absolute;
+  left: 290px;
+}
 .main-heading_1 {
-  font-size: 45px;
-  margin-left: 30px;
-  margin-top: 40px;
-  color: #1F4A4F;
-  text-shadow: 1px 1px 4px #93D0D9;
-}
-.line {
   font-size: 60px;
-  display: inline;
-  color: #1F4A4F;
-}
-.main-heading_2 {
-  font-size: 45px;
-  margin-top: 40px;
   color: #1F4A4F;
   text-shadow: 1px 1px 4px #93D0D9;
 }
-.main-heading_3 {
+.tagline {
   font-size: 20px;
   color: #1F4A4F;
   text-shadow: 1px 1px 4px #93D0D9;
   font-family: 'Verdana', 'sans serif';
+  position: absolute;
+  top: 120px;
+  left: 290px;
 }
 #page {
   max-width: 1280;
-  width: 80%;
-  margin: 2px auto;
-  padding: 20px;
-  border: 4px double #000;
+  width: 85%;
+  margin: 15px auto;
+  padding: 5px;
   background-color:  white;
 }
 li a {
@@ -177,6 +170,12 @@ blockquote {
   font-family: 'Rockwell', 'Times Roman', serif;
   border-radius: 6px;
 }
+.search-header {
+  position: absolute;
+  top: 10px;
+  left: 610px;
+  max-width: 50px;
+}
 main ul li {
   color: black;
   font-size: 30px;
@@ -188,27 +187,22 @@ main ul li {
 
 /*header*/
 header  {
-  background: #1F4A4F;
+  background: white;
   padding: 25px;
   position: sticky;
   top: 0;
   width: 93%;
+  height: 200px;
   max-width: 1260px;
   z-index: 1;
   border-radius: 6px;
-  margin-top: 30px;
-  margin-bottom: 100px;
-  margin-left: 2px;
-  margin-right: 80px;
 }
 footer  {
-  background: #1F4A4F;
-  color: white;
+  background: white;
   padding: 10px;
   width: 98%;
+  height: 50px;
   border-radius: 6px;
-  margin-top: 10px;
-  margin-bottom: 10px;
   clear: both;
 }
 footer p a {
@@ -217,11 +211,14 @@ footer p a {
     font-family: 'Rockwell', 'Times Roman', serif;
     font-style: italic;
     font-weight: bold;
+    font-size: 16px;
     text-align: center;
-    margin-left: 350px;
+    position: absolute;
+    top: 1050px;
+    left: 980px;
 }
 footer p a:visited {
-  color: #93D0D9;
+  color: #055E49;
 }
 footer p a:hover {
   color: black;
@@ -283,9 +280,10 @@ nav ul li a:active {
   margin-left: 85px;
 }
 .logo {
-  padding: 5px;
-  margin-right: 7px;
-  width: 10%;
+  width: 20%;
+  position: relative;
+  left: -600px;
+  display: inline;
 }
 
 
@@ -395,7 +393,9 @@ a.booking {
 
 /*mobile styles*/
 @media only screen and (max-width: 480px) {
-
+  .main-heading  {
+    font-size: 30%;
+  }
 }
 
 /*tablet styles*/
@@ -405,5 +405,7 @@ a.booking {
 
 /*desktop styles*/
 @media only screen and (min-width:769px) {
-
+  .main-heading {
+    font-size: 30%;
+}
 }
