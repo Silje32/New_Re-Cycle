@@ -4,11 +4,11 @@
       <meta charset="utf-8">
       <meta name="description" content="A page for explaining what Re-cycle is">
       <meta name="keywords" content="bike,tours,guides">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title> RE-CYCLE </title>
 
       <!-- Typeface: NexaRustSlab -->
-      <link rel="stylesheet" href="/webfont/stylesheet.css" type="text/css">
+      <link rel="stylesheet" href="../webfont/stylesheet.css" type="text/css">
 
       <!-- Typeface: Rockwell -->
       <link rel="stylesheet" href="https://use.typekit.net/kns5kjm.css">
@@ -23,7 +23,14 @@
             <input type="text" name="search" />
          </div>
          <div id="top">
-         <div id="page">
+
+
+           <a href="menu.html">
+               <img src="images/graphics/menu.svg"
+                    alt="hamburger menu"
+                    class="menu"></a>
+
+           <div id="page">
            <div class="main-heading">
               <h1 class="main-heading_1">RE - CYCLE</h1>
               <img src="images/graphics/logo.png" alt="The logo of Re-Cycle" class="logo" />
@@ -31,7 +38,6 @@
              <h2 class="tagline"> - guided bike tours around the city.</h2>
       </header>
            <nav>
-             <div class ="container">
                <ul>
                  <li><a href="index.html">HOME</a></li>
                  <li><a href="about.html">ABOUT US</a></li>
@@ -69,11 +75,17 @@
                <a href="contact.html" class="booking">BOOK A TRIP</a>
             </div>
         </main>
-       <footer>
-           <p><a href="#top" title="back to the top">BACK TO TOP</a></p>
-       </footer>
+      <div class="container_footer">
+        <section class="footer">
+            <footer>
+               <p><a href="#top" title="back to the top">BACK TO TOP</a></p>
+            </footer>
+        </section>
       </div>
      </div>
     </div>
+    <!--[if It IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
    </body>
 </html>

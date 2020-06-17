@@ -175,6 +175,7 @@ blockquote {
   top: 10px;
   left: 610px;
   max-width: 50px;
+  display: inline-block;
 }
 main ul li {
   color: black;
@@ -197,6 +198,9 @@ header  {
   z-index: 1;
   border-radius: 6px;
 }
+img.menu {
+  display: none;
+}
 footer  {
   background: white;
   padding: 10px;
@@ -215,7 +219,7 @@ footer p a {
     text-align: center;
     position: absolute;
     top: 1050px;
-    left: 980px;
+    left: 500px;
 }
 footer p a:visited {
   color: #055E49;
@@ -266,7 +270,7 @@ nav ul li a:active {
   margin-bottom: 30px;
 }
 .textWrap img {
-  float: right;
+  float: left;
   margin: 0px 35px 35px 5px;
   width: 50%;
 }
@@ -393,9 +397,32 @@ a.booking {
 
 /*mobile styles*/
 @media only screen and (max-width: 480px) {
-  .main-heading  {
-    font-size: 30%;
-  }
+body {
+  max-width: 400px;
+}
+header {
+  height: 60px;
+  max-width: 350px;
+}
+.main-heading_1  {
+  font-size: 35px;
+}
+.main-heading {
+  position: absolute;
+  top: 5px;
+  left: 40px;
+}
+header .menu {
+  display: inline-block;
+  width: 20%;
+  color: white;
+  position: relative;
+  top: 8px;
+  left: 290px;
+}
+.search-header {
+  display: none;
+}
 }
 
 /*tablet styles*/
@@ -405,7 +432,20 @@ a.booking {
 
 /*desktop styles*/
 @media only screen and (min-width:769px) {
-  .main-heading {
-    font-size: 30%;
+body {
+  max-width: 1024px;
+}
+.search-header {
+  display: inline-block;
+}
+header {
+  height: 200px;
+  max-width: 1260px;
+}
+.main-heading_1 {
+  font-size: 60px;
+}
+img.menu {
+  display: none;
 }
 }
