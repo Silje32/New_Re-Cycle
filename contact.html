@@ -4,11 +4,12 @@
       <meta charset="utf-8">
       <meta name="description"
             content="A page for explaining where to contact Re-cycle">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="bike,tours,guides">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title> CONTACT US </title>
 
       <!-- Typeface: NexaRustSlab -->
-      <link rel="stylesheet" href="webfont/stylesheet.css" type="text/css">
+      <link rel="stylesheet" href="../webfont/stylesheet.css" type="text/css">
 
       <!-- Typeface: Rockwell -->
       <link rel="stylesheet" href="https://use.typekit.net/kns5kjm.css">
@@ -18,13 +19,24 @@
 
    </head>
    <body>
-     <div id="top">
-     <div id="page">
-       <img src="images/graphics/logo.png" alt="The logo of Re-Cycle" class="logo" />
-       <h1 class="main-heading_1">RE</h1>
-       <p class="line"> - </p>
-       <h1 class="main-heading_2">CYCLE</h1>
-       <header>
+     <header>
+       <div class="search-header">
+          <input type="text" name="search" />
+       </div>
+        <div id="top">
+          <a href="menu.html">
+              <img src="images/graphics/menu.svg"
+                   alt="hamburger menu"
+                   class="menu"></a>
+        <div id="page">
+          <div class="main-heading">
+             <h1 class="main-heading_1">RE - CYCLE</h1>
+             <img src="images/graphics/logo.png" alt="The logo of Re-Cycle" class="logo" />
+          </div>
+          <div>
+            <h2 class="tagline"> - guided bike tours around the city.</h2>
+          </div>
+     </header>
            <nav>
               <ul>
                 <li><a href="index.html">HOME</a></li>
@@ -34,7 +46,6 @@
               </ul>
            </nav>
            <hr>
-       </header>
            <main>
                <h1 class="contact">CONTACT US</h1>
                  <section>
@@ -76,11 +87,13 @@
                           class="bike" />
                  </section>
            </main>
+           <div class="container_footer">
+            <section class="footer">
        <footer>
-       <hr>
-        <p><a href="#top" title="back to the top">Back to top</a></p>
-       <hr>
+           <p><a href="#top" title="back to the top">BACK TO TOP</a></p>
        </footer>
+     </section>
+     </div>
      </div>
      <script src="javascript/form.js"></script>
    </body>

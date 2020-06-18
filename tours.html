@@ -3,11 +3,12 @@
    <head>
       <meta charset="utf-8">
       <meta name="description" content="A page for showing Re-cycle´s tours">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="bike,tours,guides">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title> TOURS </title>
 
       <!-- Typeface: NexaRustSlab -->
-      <link rel="stylesheet" href="webfont/stylesheet.css" type="text/css">
+      <link rel="stylesheet" href="../webfont/stylesheet.css" type="text/css">
 
       <!-- Typeface: Rockwell -->
       <link rel="stylesheet" href="https://use.typekit.net/kns5kjm.css">
@@ -17,13 +18,24 @@
 
    </head>
    <body>
+     <header>
+       <div class="search-header">
+          <input type="text" name="search" />
+       </div>
      <div id="top">
+       <a href="menu.html">
+           <img src="images/graphics/menu.svg"
+                alt="hamburger menu"
+                class="menu"></a>
      <div id="page">
-       <img src="images/graphics/logo.png" alt="The logo of Re-Cycle" class="logo" />
-       <h1 class="main-heading_1">RE</h1>
-       <p class="line"> - </p>
-       <h1 class="main-heading_2">CYCLE</h1>
-       <header>
+       <div class="main-heading">
+          <h1 class="main-heading_1">RE - CYCLE</h1>
+          <img src="images/graphics/logo.png" alt="The logo of Re-Cycle" class="logo" />
+       </div>
+       <div>
+         <h2 class="tagline"> - guided bike tours around the city.</h2>
+       </div>
+     </header>
            <nav>
               <ul>
                 <li><a href="index.html">HOME</a></li>
@@ -53,11 +65,13 @@
                     <img src="images/photos/tour.jpg" alt="Two ladies biking"
                          class="people" />
            </main>
-       <footer>
-       <hr>
-        <p><a href="#top" title="back to the top">Back to top</a></p>
-       <hr>
-       </footer>
+             <div class="container_footer">
+               <section class="footer">
+         <footer>
+             <p><a href="#top" title="back to the top">BACK TO TOP</a></p>
+         </footer>
+       </section>
+      </div>
      </div>
    </body>
 </html>
